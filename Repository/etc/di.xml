@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Example\Repository\Api\ItemRepositoryInterface"
+                type="Example\Repository\Model\ItemRepository" />
+    <preference for="Example\Repository\Api\Data\ItemInterface"
+                type="Example\Repository\Model\Item" />
+    <preference for="Example\Repository\Api\Data\ItemSearchResultsInterface"
+                type="Magento\Framework\Api\SearchResults" />
+</config>
